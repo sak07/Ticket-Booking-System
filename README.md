@@ -6,7 +6,7 @@ A full-stack ticket booking application built with **Java Spring Boot** (backend
 
 ```
 ticket-booking-system/
-├── backend/             # Java Spring Boot Application
+├── ticket-booking-backend/             # Java Spring Boot Application
 ├── frontend/            # Next.js React Application
 ├── demo/                # Screenshots and demos
 ├── requirements.txt     # System requirements
@@ -51,4 +51,4 @@ The application will be available at `http://localhost:3000`
 - Responsive layout
 
 ## 🔧 Troubleshooting
-If you have issues with Java or Maven, check the `INSTALLATION_GUIDE.md` inside the frontend folder (we'll move it to root soon!).
+If you have issues with Java or Maven, check the `SETUP_MAC.md` or `SETUP_WINDOWS.md` inside the root folder.
