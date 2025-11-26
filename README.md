@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎟️ Ticket Booking System
 
-## Getting Started
+A full-stack ticket booking application built with **Java Spring Boot** (backend) and **Next.js** (frontend).
 
-First, run the development server:
+## 📁 Project Structure
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+ticket-booking-system/
+├── backend/             # Java Spring Boot Application
+├── frontend/            # Next.js React Application
+├── demo/                # Screenshots and demos
+├── requirements.txt     # System requirements
+└── README.md            # This file
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Quick Start
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 1. Prerequisites
+- Install **Java 21** (Ensure added to PATH)
+- Install **Node.js 18+**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 2. Start Backend
+Open a terminal in the `ticket-booking-backend` folder :
 
-## Learn More
+```bash
+cd backend
+# If using Maven:
+mvn spring-boot:run
+# If using Maven Daemon:
+mvnd spring-boot:run
+```
 
-To learn more about Next.js, take a look at the following resources:
+The server will start at `http://localhost:8080`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 3. Start Frontend
+Open a new terminal in the `frontend` folder:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+cd frontend
+npm run dev
+```
 
-## Deploy on Vercel
+The application will be available at `http://localhost:3000`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🌟 Features
+- View available events
+- Real-time seat availability
+- Book tickets with validation
+- Premium UI design
+- Dark/Light Mode Support
+- Responsive layout
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🔧 Troubleshooting
+If you have issues with Java or Maven, check the `INSTALLATION_GUIDE.md` inside the frontend folder (we'll move it to root soon!).

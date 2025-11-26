@@ -1,0 +1,9 @@
+Ticket Booking System
+This project is a basic Ticket Booking System built with Any MVC architecture framework (backend) and Next.js (frontend). Users will be able to view available events and book tickets.
+The developer can decide the input format, database schema, and structure of the API as long as the system supports:
+
+1.	Listing events
+2.	Creating a booking for an event
+3.	Ensuring bookings don’t exceed available seats
+The backend (Any MVC) will expose the endpoints and handle validation, authentication, and database updates.The frontend (Next.js) will display events and provide a simple form to submit bookings.
+The goal is to create a small but functional end-to-end ticket booking flow.
