@@ -7,10 +7,10 @@ A full-stack ticket booking application built with **Java Spring Boot** (backend
 ```
 ticket-booking-system/
 ├── ticket-booking-backend/             # Java Spring Boot Application
-├── frontend/            # Next.js React Application
-├── demo/                # Screenshots and demos
-├── requirements.txt     # System requirements
-└── README.md            # This file
+├── frontend/                           # Next.js React Application
+├── demo/                               # Screenshots and demos
+├── requirements.txt                    # System requirements
+└── README.md                           # This file
 ```
 
 ## 🚀 Quick Start
@@ -23,7 +23,7 @@ ticket-booking-system/
 Open a terminal in the `ticket-booking-backend` folder :
 
 ```bash
-cd backend
+cd ticket-booking-backend
 # If using Maven:
 mvn spring-boot:run
 # If using Maven Daemon:
